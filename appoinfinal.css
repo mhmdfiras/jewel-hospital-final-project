@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background: #f4f4f9;
+    color: #333;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#report {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Centered text */
+    display: none; /* Initially hidden */
+}
+
+button {
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.form-check-label {
+    margin-left: 8px;
+
+}
+body {
+background-image: url('your-image-url.jpg');
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
+
+.container {
+background-color: rgba(255, 255, 255, 0.8); /* White background with some opacity */
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label,
+.navbar-brand,
+.nav-link {
+color: #333; /* Dark text for better readability */
+}
